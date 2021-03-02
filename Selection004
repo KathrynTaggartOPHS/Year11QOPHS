@@ -1,0 +1,7 @@
+colour = str(input("Enter your favourite colour >>>"))
+
+if colour == "red" or colour == "RED":
+  print("I like red too")
+
+else:
+  print("I don't like", colour, "," ,colour, "is for losers.")
