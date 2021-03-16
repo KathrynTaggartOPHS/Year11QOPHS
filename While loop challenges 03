@@ -1,0 +1,12 @@
+num = int(input("enter a number >>>> "))
+holdsfirstnum = num
+total = holdsfirstnum
+
+loop = "y"
+
+while loop == "y":
+    anothernum = int(input("enter a second number >>>> "))
+    total = total + anothernum
+    loop = str(input("do you want another number y or n? >>>>> "))
+
+print(total)
