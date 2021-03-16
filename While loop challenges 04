@@ -1,0 +1,10 @@
+count = 0
+loop = "y"
+
+while loop == "y":
+    guest = str(input("What is the name of the guest invited to the party? >>>> "))
+    print(guest,"has now been invited")
+    count = count + 1
+    loop = str(input("Are there any more people invited? y or n >>>>"))
+    
+print(count)
