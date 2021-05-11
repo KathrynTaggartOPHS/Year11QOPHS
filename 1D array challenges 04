@@ -1,0 +1,20 @@
+programmes = ["Clone Wars", "Blue Planet II", "Toy Story", "AutumnWatch"]
+
+print(programmes[0])
+print(programmes[1])
+print(programmes[2])
+print(programmes[3])
+
+choice = str(input("Would you like to enter another show? y or n >>>"))
+
+while choice == "y":
+    newProgramme = str(input("Enter the name of another show or press n to exit >>>"))
+
+    if newProgramme != "n":
+        programmes.append(newProgramme)
+
+    elif newProgramme == "n":
+        choice = "n"
+    
+
+print(programmes)
