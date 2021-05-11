@@ -1,0 +1,19 @@
+guests = []
+guests.append(str(input("Enter the name of your first guest >>>")))
+guests.append(str(input("Enter the name of your second guest >>>")))
+guests.append(str(input("Enter the name of your third guest >>>")))
+
+newGuest = str(input("Would you like to enter another guest? y or n >>>"))
+
+while newGuest == "y":
+    guest = str(input("Enter the name of your next guest or enter n to stop >>>"))
+
+    if guest != "n":
+        guests.append(guest)
+
+    elif guest == "n":
+        newGuest = "n"
+        
+guestNum = len(guests)
+
+print("You have invited", guestNum, "guests")
