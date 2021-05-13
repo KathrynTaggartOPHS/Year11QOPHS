@@ -1,0 +1,24 @@
+food = []
+
+food.append(str(input("Enter a type of food >>>")))
+food.append(str(input("Enter a type of food >>>")))
+food.append(str(input("Enter a type of food >>>")))
+food.append(str(input("Enter a type of food >>>")))
+
+print(food)
+
+delete = int(input("Which food should be deleted? (number only) >>>"))
+
+if delete == 1:
+    del food[0]
+    print(food)
+elif delete == 2:
+    del food[1]
+    print(food)
+elif delete == 3:
+    del food[2]
+    print(food)
+elif delete == 4:
+    del food[3]
+    print(food)
+    
