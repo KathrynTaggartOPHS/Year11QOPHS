@@ -1,0 +1,17 @@
+nums = []
+
+nums.append(int(input("Enter a number >>>")))
+print(nums)
+nums.append(int(input("Enter a number >>>")))
+print(nums)
+nums.append(int(input("Enter a number >>>")))
+print(nums)
+
+question = str(input("Would you still like the the last number entered saved? >>>"))
+
+if question == "no":
+    del nums[2]
+    print(nums)
+elif question == "yes":
+    print(nums)
+
