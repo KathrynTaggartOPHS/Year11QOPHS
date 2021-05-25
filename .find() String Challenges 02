@@ -1,0 +1,6 @@
+url = "google.com"
+target = "."
+
+location = url.find(target)
+
+print("The full stop is located as the index", location)
