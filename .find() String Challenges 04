@@ -1,0 +1,9 @@
+string = "123456789"
+target1 = "3"
+target2 = "8"
+
+location1 = string.find(target1)
+location2 = string.find(target2)
+
+print("The number 3 is located in index", location1)
+print("The number 8 is located in index", location2)
