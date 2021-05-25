@@ -1,0 +1,6 @@
+email_address = "TheQueen@BuckinghamPalace.uk"
+target = "@"
+
+location = email_address.find(target)
+
+print("The @ symbol is located in index", location)
