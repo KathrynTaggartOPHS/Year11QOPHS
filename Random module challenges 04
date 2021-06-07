@@ -1,0 +1,22 @@
+import random
+
+num = random.randint(1, 5)
+
+guess = int(input("Pick a number between 1 and 5! >>>"))
+
+if guess == num:
+  print("Well done!")
+elif guess < num:
+  guess2 = int(input("Too low, try again! >>>"))
+  
+  if guess2 == num:
+    print("Correct!")
+  else:
+    print("You lose.")
+elif guess > num:
+  guess2 = int(input("Too high, try again! >>>"))
+  
+  if guess2 == num:
+    print("Correct!")
+  else:
+    print("You lose.")
