@@ -1,0 +1,10 @@
+number = str(input("Please enter your phone number >>>"))
+
+target = "0"
+
+location = number.find(target)
+
+if target == number[0]:
+  print("Valid UK mobile phone number")
+else:
+  print("Not a UK mobile phone number")
