@@ -1,0 +1,7 @@
+import random
+
+colours = ["Mauve", "Periwinkle", "Burgandy", "Daffodil", "Grape"]
+
+choice = random.choice(colours)
+
+print(choice)
