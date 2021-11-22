@@ -1,0 +1,7 @@
+import turtle
+
+for i in range (5):
+  turtle.left(36)
+  turtle.forward(60)
+  turtle.right(252)
+  turtle.forward(60)
