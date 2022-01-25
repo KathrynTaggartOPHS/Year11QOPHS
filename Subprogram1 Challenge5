@@ -33,6 +33,7 @@ if choice == 3:
 if choice == 4:
     winner()
 if choice == 5:
+    leave()
     exit()
 else:
     print("Invalid choice. Please try again.")
