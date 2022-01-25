@@ -1,0 +1,16 @@
+def menu():
+   print("domination")
+   print("team deathmatch")
+   print("headquarters")
+menu()
+
+number = int(input("Choose your option (1, 2 or 3)"))
+
+if number == 1:
+    print("Domination Mode Selected.")
+elif number == 2:
+    print("Team Deathmatch Mode Selected")
+elif number == 3:
+    print("Headquarters Selected")
+else:
+    print("Invalid")
