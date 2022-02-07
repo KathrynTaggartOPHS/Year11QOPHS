@@ -1,0 +1,11 @@
+import random
+
+print("RANDOM NAME GENERATOR!!!")
+names = []
+
+for name in range(0,5):
+  names.append(input("Enter a name >>>>"))
+
+index = random.randint(0,5)
+
+print(names[index], "has been chosen")
