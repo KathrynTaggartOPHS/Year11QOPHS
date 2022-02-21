@@ -1,0 +1,8 @@
+EmptyArray = [["a" for column in range(3)]for row in range(4)]
+print(EmptyArray)
+
+column_integer = int(input("Choose the range value for the column >>>>"))
+row_integer = int(input("Choose the range value for the row >>>>"))
+
+EmptyArray = [["a" for column in range(column_integer)]for row in range(row_integer)]
+print(EmptyArray)
