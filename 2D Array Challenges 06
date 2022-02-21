@@ -1,0 +1,16 @@
+EmptyArray = [["a" for column in range(3)]for row in range(4)]
+print(EmptyArray)
+
+column_integer = int(input("Choose the range value for the column >>>>"))
+row_integer = int(input("Choose the range value for the row >>>>"))
+
+EmptyArray = [["a" for column in range(column_integer)]for row in range(row_integer)]
+print(EmptyArray)
+
+index_column = int(input("Which column would you like to change? (number) >>>>"))
+index_row = int(input("Which row would you like to change? (number) >>>>"))
+value = input("What would you like to change this to? >>>>")
+
+EmptyArray[index_column][index_row] = value
+
+print(EmptyArray)
